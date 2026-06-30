@@ -2,6 +2,8 @@
 
 A comprehensive guide, wiring diagram, and source code for connecting a standard **ST7789 (Red Board) SPI Display with Touch** to an **M5Stack Cardputer**. Featuring custom touch drag-and-drop mechanics built using raw coding and Antigravity AI.
 
+🎥 **[Watch the Demo on YouTube](https://youtu.be/mIokOirxElU)**
+
 ![Project Demo](project-demo.jpg)
 
 ## ✨ Features
@@ -46,4 +48,12 @@ An advanced example utilizing the powerful **M5GFX** library for graphics and do
 ### Using PlatformIO (VSCode)
 1. Copy the contents of the `.ino` file from the example you want to run.
 2. Paste it into your `src/main.cpp` file.
-3. Click **Upload** to flash the code to your Cardputer.
+3. Click **Upload** to flash the code to your Cardputer, or run the following commands in the terminal:
+
+```bash
+# To build the project
+pio run
+
+# To build and upload the project to your Cardputer
+pio run --target upload
+```

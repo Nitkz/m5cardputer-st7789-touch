@@ -1,0 +1,22 @@
+# PlatformIO directories
+.pio/
+
+# VSCode directories
+.vscode/
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+*.a
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

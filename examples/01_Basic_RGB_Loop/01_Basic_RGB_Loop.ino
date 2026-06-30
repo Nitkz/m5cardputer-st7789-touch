@@ -51,7 +51,8 @@ void initST7789() {
   sendCommand(0x3A); // Color Format
   sendData(0x05);    // 16-bit/pixel (RGB565)
 
-  sendCommand(0x21); // Display Inversion On
+  // sendCommand(0x21); // Display Inversion On (Use this if colors are inverted)
+  sendCommand(0x20); // Display Inversion Off (Fixes the Cyan/Pink/Yellow issue)
 
   sendCommand(0x2A); // Column Address Set (for 240 width)
   sendData(0x00);
