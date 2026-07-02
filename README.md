@@ -4,7 +4,7 @@ A comprehensive guide, wiring diagram, and source code for connecting a standard
 
 🎥 **[Watch the Demo on YouTube](https://youtu.be/mIokOirxElU)**
 
-![Project Demo](project-demo.jpg)
+[![Project Demo](project-demo.jpg)](https://youtu.be/mIokOirxElU)
 
 ## ✨ Features
 - **Raw Command RGB Test:** Verifies screen connectivity and color output using primitive commands.
@@ -15,6 +15,9 @@ A comprehensive guide, wiring diagram, and source code for connecting a standard
 
 ## Hardware Wiring
 
+🛒 **[Get the ST7789 (Red Board) Display on Shopee](https://s.shopee.co.th/9pcOmPRWWA)**
+
+[![LCD Red Board](lcd-red-board.jpg)](https://s.shopee.co.th/9pcOmPRWWA)
 ![Wiring Diagram](wiring-diagram.png)
 
 The code is pre-configured to use the following wiring between the Cardputer and the ST7789 module:
